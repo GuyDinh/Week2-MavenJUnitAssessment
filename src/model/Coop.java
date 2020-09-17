@@ -2,7 +2,6 @@ package model;
 
 public class Coop {
 	private int dimensionSqFt;
-	private String color;
 	
 	public Coop() {
 		super();
@@ -17,12 +16,6 @@ public class Coop {
 	}
 	public void setDimensionSqFt(int dimensionSqFt) {
 		this.dimensionSqFt = dimensionSqFt;
-	}
-	public String getColor() {
-		return color;
-	}
-	public void setColor(String color) {
-		this.color = color;
 	}
 	
 	public String getSizeCategory(Coop coop) {

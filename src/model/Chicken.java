@@ -1,8 +1,7 @@
 package model;
 
 public class Chicken {
-	private boolean rooster;
-	private String color;
+
 	private int ageMonths;
 	
 	public Chicken() {
@@ -11,19 +10,6 @@ public class Chicken {
 	public Chicken(int ageMonths) {
 		super();
 		this.ageMonths = ageMonths;
-	}
-
-	public boolean isRooster() {
-		return rooster;
-	}
-	public void setRooster(boolean rooster) {
-		this.rooster = rooster;
-	}
-	public String getColor() {
-		return color;
-	}
-	public void setColor(String color) {
-		this.color = color;
 	}
 	public int getAgeMonths() {
 		return ageMonths;
